@@ -1,6 +1,6 @@
 from flask import Flask,request,json, send_file
 from flask_cors import CORS
-from image.service import Service as ImageService
+from image_module.service import Service as ImageService
 
 app = Flask(__name__)
 CORS(app)
